@@ -1,0 +1,229 @@
+{
+  "masculino": [
+    {
+      "nome": "Hugo Souza",
+      "posicaoSelecionada": "Goleiro",
+      "genero": "masculino",
+      "ano": "2025",
+      "imagem": "/imagens/1738724117477.png"
+    },
+    {
+      "nome": "Felipe Longo",
+      "posicaoSelecionada": "Goleiro",
+      "genero": "masculino",
+      "ano": "2025",
+      "imagem": "/imagens/1738724431748.png"
+    },
+    {
+      "nome": "Matheus Donelli",
+      "posicaoSelecionada": "Goleiro",
+      "genero": "masculino",
+      "ano": "2025",
+      "imagem": "/imagens/1738724458982.png"
+    },
+    {
+      "nome": "André Ramalho",
+      "posicaoSelecionada": "Zagueiro",
+      "genero": "masculino",
+      "ano": "2025",
+      "imagem": "/imagens/1738724482985.png"
+    },
+    {
+      "nome": "Cacá",
+      "posicaoSelecionada": "Zagueiro",
+      "genero": "masculino",
+      "ano": "2025",
+      "imagem": "/imagens/1738724502300.png"
+    },
+    {
+      "nome": "Félix Torres",
+      "posicaoSelecionada": "Zagueiro",
+      "genero": "masculino",
+      "ano": "2025",
+      "imagem": "/imagens/1738724522017.png"
+    },
+    {
+      "nome": "Gustavo Henrique",
+      "posicaoSelecionada": "Zagueiro",
+      "genero": "masculino",
+      "ano": "2025",
+      "imagem": "/imagens/1738724558701.png"
+    },
+    {
+      "nome": "João Pedro",
+      "posicaoSelecionada": "Zagueiro",
+      "genero": "masculino",
+      "ano": "2025",
+      "imagem": "/imagens/1738724580085.png"
+    },
+    {
+      "nome": "Renato",
+      "posicaoSelecionada": "Zagueiro",
+      "genero": "masculino",
+      "ano": "2025",
+      "imagem": "/imagens/1738724634132.png"
+    },
+    {
+      "nome": "Diego Palacios",
+      "posicaoSelecionada": "Lateral-Esquerdo",
+      "genero": "masculino",
+      "ano": "2025",
+      "imagem": "/imagens/1738724674835.png"
+    },
+    {
+      "nome": "Hugo",
+      "posicaoSelecionada": "Lateral-Esquerdo",
+      "genero": "masculino",
+      "ano": "2025",
+      "imagem": "/imagens/1738724902990.png"
+    },
+    {
+      "nome": "Léo Mana",
+      "posicaoSelecionada": "Lateral-Direito",
+      "genero": "masculino",
+      "ano": "2025",
+      "imagem": "/imagens/1738724924823.png"
+    },
+    {
+      "nome": "Matheuzinho",
+      "posicaoSelecionada": "Lateral-Direito",
+      "genero": "masculino",
+      "ano": "2025",
+      "imagem": "/imagens/1738724992574.png"
+    },
+    {
+      "nome": "Matheus Bidu",
+      "posicaoSelecionada": "Lateral-Esquerdo",
+      "genero": "masculino",
+      "ano": "2025",
+      "imagem": "/imagens/1738725010058.png"
+    },
+    {
+      "nome": "Alex Santana",
+      "posicaoSelecionada": "Meia",
+      "genero": "masculino",
+      "ano": "2025",
+      "imagem": "/imagens/1738725039624.png"
+    },
+    {
+      "nome": "André Carrillo",
+      "posicaoSelecionada": "Meia",
+      "genero": "masculino",
+      "ano": "2025",
+      "imagem": "/imagens/1738725072174.png"
+    },
+    {
+      "nome": "Brenon Bidon",
+      "posicaoSelecionada": "Meia",
+      "genero": "masculino",
+      "ano": "2025",
+      "imagem": "/imagens/1738725093740.png"
+    },
+    {
+      "nome": "Charles",
+      "posicaoSelecionada": "Meia",
+      "genero": "masculino",
+      "ano": "2025",
+      "imagem": "/imagens/1738725117406.png"
+    },
+    {
+      "nome": "José Martinez",
+      "posicaoSelecionada": "Meia",
+      "genero": "masculino",
+      "ano": "2025",
+      "imagem": "/imagens/1738725157856.png"
+    },
+    {
+      "nome": "Ryan",
+      "posicaoSelecionada": "Meia",
+      "genero": "masculino",
+      "ano": "2025",
+      "imagem": "/imagens/1738725175489.png"
+    },
+    {
+      "nome": "Maycon",
+      "posicaoSelecionada": "Meia",
+      "genero": "masculino",
+      "ano": "2025",
+      "imagem": "/imagens/1738725192939.png"
+    },
+    {
+      "nome": "Raniele",
+      "posicaoSelecionada": "Meia",
+      "genero": "masculino",
+      "ano": "2025",
+      "imagem": "/imagens/1738725212674.png"
+    },
+    {
+      "nome": "Igor Coronado",
+      "posicaoSelecionada": "Meia",
+      "genero": "masculino",
+      "ano": "2025",
+      "imagem": "/imagens/1738725242941.png"
+    },
+    {
+      "nome": "Rodrigo Garro",
+      "posicaoSelecionada": "Meia",
+      "genero": "masculino",
+      "ano": "2025",
+      "imagem": "/imagens/1738725266224.png"
+    },
+    {
+      "nome": "Héctor Hernández",
+      "posicaoSelecionada": "Atacante",
+      "genero": "masculino",
+      "ano": "2025",
+      "imagem": "/imagens/1738725328893.png"
+    },
+    {
+      "nome": "Kayke",
+      "posicaoSelecionada": "Atacante",
+      "genero": "masculino",
+      "ano": "2025",
+      "imagem": "/imagens/1738725346691.png"
+    },
+    {
+      "nome": "Pedro Raul",
+      "posicaoSelecionada": "Atacante",
+      "genero": "masculino",
+      "ano": "2025",
+      "imagem": "/imagens/1738725394393.png"
+    },
+    {
+      "nome": "Romero",
+      "posicaoSelecionada": "Atacante",
+      "genero": "masculino",
+      "ano": "2025",
+      "imagem": "/imagens/1738725421158.png"
+    },
+    {
+      "nome": "Talles Magno",
+      "posicaoSelecionada": "Atacante",
+      "genero": "masculino",
+      "ano": "2025",
+      "imagem": "/imagens/1738725444809.png"
+    },
+    {
+      "nome": "Yuri Alberto",
+      "posicaoSelecionada": "Atacante",
+      "genero": "masculino",
+      "ano": "2025",
+      "imagem": "/imagens/1738725458277.png"
+    },
+    {
+      "nome": "Memphis",
+      "posicaoSelecionada": "Atacante",
+      "genero": "masculino",
+      "ano": "2025",
+      "imagem": "/imagens/1738763668411.png"
+    },
+    {
+      "nome": "Giovane",
+      "posicaoSelecionada": "Atacante",
+      "genero": "masculino",
+      "ano": "2025",
+      "imagem": "/imagens/1738763698325.png"
+    }
+  ],
+  "feminino": []
+}

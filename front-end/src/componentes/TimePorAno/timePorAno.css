@@ -1,0 +1,31 @@
+.time {
+  text-align: center;
+  padding: 2rem;
+  color: var(--cor-preto);
+  font-family: var(--font-corpo);
+  background-color: rgba(244, 244, 244, 0.777);
+  margin: 4rem 0;
+  overflow-x: auto;
+  width: 100%;
+  overflow-x: auto;
+  border-bottom: 4px solid rgba(255, 255, 255, 0.591);
+  border-top: 4px solid  rgba(255, 255, 255, 0.591);
+}
+
+.time h3 {
+  font-size: 32px;
+  border-bottom: 1px solid;
+  display: inline-block;
+  padding-bottom: 8px;
+  position: sticky;
+  left: 50%;
+  z-index: 10;
+}
+
+.time .jogadores {
+  display: flex;
+  width: 100%;
+  width: max-content;
+  flex-wrap: nowrap;
+  margin: 0rem 1rem;
+}

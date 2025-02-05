@@ -1,0 +1,8 @@
+.rodape{
+    background-color: white;
+    color: rgb(0, 0, 0);
+    font-family: var(--font-corpo);
+    padding: 0.5rem;
+    font-size: 0.7rem;
+   
+}

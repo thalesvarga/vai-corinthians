@@ -1,0 +1,87 @@
+.banner {
+  width: 100%;
+  position: relative;
+
+}
+
+.banner-listras {
+  width: 100%;
+  height: 50vh;
+  opacity: 0.2;
+}
+
+.container-banner-titulo {
+  display: flex;
+  background-color: var(--cor-branco);
+  justify-content: center;
+  margin: 1rem 0;
+  padding: 0;
+}
+
+.banner h1 {
+  font-family: var(--font-titulo-bold);
+  font-size: 2rem;
+  left: 20%;
+}
+
+.banner-opcao-genero{
+position: relative;
+text-align: center;
+display: flex;
+align-items: center;
+left: 23%;
+color: var(--cor-preto);
+border: none;
+background-color: white;
+cursor: pointer;
+}
+
+.banner-opcao-genero button {
+  position: relative;
+  left: 23%;
+  color: var(--cor-preto);
+  border: none;
+  background-color: white;
+  cursor: pointer;
+  transition: font-weight 0.3s ease,transform 0.3s ease;
+}
+
+.banner-opcao-genero button.active{
+  font-weight: bold;
+  text-decoration: underline;
+  font-size: 0.9rem;
+}
+
+.banner-opcao-genero button:hover{
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.simbolo-corinthians {
+  width: 7%;
+  position: absolute;
+  top: 78%;
+  left: 24%;
+  transition: transform 0.5s ease;
+}
+
+.simbolo-corinthians:hover {
+  transform: scale(1.1);
+}
+
+/* .container-banner-descricao {
+  display: flex;
+  justify-content: flex-start;
+  padding: 3rem;
+  max-width: 100%;
+}
+
+.banner-descricao {
+  background-color: rgba(255, 255, 255, 0.773);
+  font-family: var(--font-corpo);
+  max-width: 15%;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 1px 3px 9px rgb(255, 255, 255);
+  align-items: flex-end;
+} */
