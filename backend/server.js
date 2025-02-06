@@ -5,14 +5,16 @@ const path = require("path");
 const { Low, JSONFile } = require("lowdb");
 
 const app = express();
-const port = 5001;
+const port = process.env.PORT || 5001; // Usar a porta do ambiente ou 5001 localmente
 
-app.use(cors());
+app.use(cors({
+  origin: ['http://localhost:3000', 'https://vai-corinthians-rho.vercel.app', 'http://localhost:5001']
+}));
 app.use(express.json());
 
 const storage = multer.diskStorage({
   destination: (req, file, cb) => {
-    cb(null, path.join(__dirname, "../front-end/public/imagens"));
+    cb(null, path.join(__dirname, "public/imagens")); // Ajuste o caminho
   },
   filename: (req, file, cb) => {
     cb(null, Date.now() + path.extname(file.originalname));
@@ -22,7 +24,7 @@ const storage = multer.diskStorage({
 const upload = multer({ storage });
 
 // Instanciando o lowdb com o JSONFile
-const adapter = new JSONFile('./db.json');
+const adapter = new JSONFile(path.join(__dirname, "db.json"));
 const db = new Low(adapter);
 
 // Inicializando os dados caso não existam
@@ -34,7 +36,7 @@ async function initDB() {
 initDB();
 
 app.post("/jogadores", upload.single("imagem"), async (req, res) => {
-  await db.read(); // Garantindo que os dados estão carregados antes de modificar
+  await db.read();
 
   const { nome, posicaoSelecionada, genero, ano } = req.body;
   const imagem = req.file ? `/imagens/${req.file.filename}` : null;
@@ -46,7 +48,7 @@ app.post("/jogadores", upload.single("imagem"), async (req, res) => {
   const novoJogador = { nome, posicaoSelecionada, genero, ano, imagem };
   db.data[genero].push(novoJogador);
 
-  await db.write(); // Salvando as alterações no arquivo
+  await db.write();
 
   res.json({
     mensagem: "Jogador cadastrado com sucesso",
@@ -55,10 +57,15 @@ app.post("/jogadores", upload.single("imagem"), async (req, res) => {
 });
 
 app.get("/jogadores", async (req, res) => {
-  await db.read(); // Garantindo que os dados estão carregados antes de retornar
+  await db.read();
   res.json(db.data);
 });
 
-app.listen(port, () => {
-  console.log(`Servidor rodando em http://localhost:${port}`);
-});
+// Iniciar o servidor localmente
+if (require.main === module) {
+  app.listen(port, () => {
+    console.log(`Servidor rodando em http://localhost:${port}`);
+  });
+}
+
+module.exports = app;

@@ -223,6 +223,13 @@
       "genero": "masculino",
       "ano": "2025",
       "imagem": "/imagens/1738763698325.png"
+    },
+    {
+      "nome": "Thales",
+      "posicaoSelecionada": "Lateral-Direito",
+      "genero": "masculino",
+      "ano": "1910",
+      "imagem": "/imagens/1738805853546.png"
     }
   ],
   "feminino": []
